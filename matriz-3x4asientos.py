@@ -13,7 +13,7 @@ def reservar_asiento(asientos, fila, columna):
         print("Lo siento, ese asiento ya está reservado.")
 
 # Inicializar la matriz de asientos (0 = libre, 1 = reservado)
-asientos = [[1, 0, 0, 0],
+asientos = [[0, 0, 0, 0],
             [0, 0, 0, 0],
             [0, 0, 0, 0]]
 
